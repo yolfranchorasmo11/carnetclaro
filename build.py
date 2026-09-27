@@ -71,7 +71,7 @@ def md_a_html(texto):
 
 def pagina(titulo, descripcion, ruta, cuerpo, activo="", extra_head="", tipo="website"):
     url = f"{BASE}{ruta}"
-    titulo_completo = titulo if titulo == SITE["name"] else f"{titulo} | {SITE['name']}"
+    titulo_completo = titulo if SITE["name"] in titulo else f"{titulo} | {SITE['name']}"
     adsense = ""
     if SITE.get("adsense_client"):
         adsense = (f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client='
@@ -311,7 +311,7 @@ def generar_senales():
   {''.join(bloques)}
   <p>Todas las señales de esta página están dibujadas por Carnet Claro a partir de la señalización oficial española. Los códigos y el catálogo completo están en el anexo I del Reglamento General de Circulación, actualizado por el Real Decreto 465/2025.</p>
 </div>"""
-    escribir("/senales/", pagina("Guía de señales de tráfico explicadas", "Todas las familias de señales de tráfico en España explicadas de forma clara: peligro, prioridad, prohibición, obligación, indicación y las nuevas circunstanciales de fondo amarillo.", "/senales/", cuerpo, "senales"))
+    escribir("/senales/", pagina("Señales de tráfico en España y su significado", "Todas las familias de señales de tráfico en España explicadas de forma clara: peligro, prioridad, prohibición, obligación, indicación y las nuevas circunstanciales de fondo amarillo.", "/senales/", cuerpo, "senales"))
 
 
 def generar_portada(arts, tests):
@@ -351,7 +351,7 @@ def generar_portada(arts, tests):
   </div>
 </section>"""
     ld = {"@context": "https://schema.org", "@type": "WebSite", "name": SITE["name"], "url": BASE + "/", "inLanguage": "es-ES"}
-    escribir("/", pagina(SITE["name"], "Tests del carnet de conducir con cada respuesta explicada, guía de señales y normativa de tráfico al día, contrastada con la DGT y el BOE.",
+    escribir("/", pagina("Test DGT gratis del permiso B con explicaciones | Carnet Claro", "Test DGT gratis del carnet de conducir B con cada respuesta explicada, guía de señales y normativa de tráfico 2026 contrastada con la DGT y el BOE.",
                          "/", cuerpo, "", f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>'))
 
 
@@ -368,10 +368,10 @@ def generar_listados(arts, tests):
     escribir("/articulos/", pagina("Guías del carnet de conducir", "Guías claras sobre normas de tráfico, el examen teórico, señales y novedades de la DGT.", "/articulos/", cuerpo, "articulos"))
 
     cuerpo = f"""<div class="contenedor"><nav class="migas"><a href="/">Inicio</a> › Tests</nav>
-<h1>Tests del permiso B con explicación</h1>
+<h1>Test DGT gratis del permiso B, con explicación</h1>
 <p class="resumen" style="max-width:60ch;color:var(--tinta-suave)">Practica por temas. Al responder verás al instante si has acertado y la explicación de la norma. Se aprueba con el mismo criterio que el examen real: como máximo un 10&nbsp;% de fallos.</p>
 <div class="rejilla">{"".join(tarjeta_test(t) for t in tests)}</div><div style="height:48px"></div></div>"""
-    escribir("/tests/", pagina("Tests del permiso B con explicación", "Tests gratuitos del carnet de conducir B por temas, con la explicación de cada respuesta.", "/tests/", cuerpo, "tests"))
+    escribir("/tests/", pagina("Test DGT gratis del permiso B por temas", "Test DGT gratis del carnet de conducir B por temas: velocidad, alcohol, señales y novedades 2026, con la explicación de cada respuesta.", "/tests/", cuerpo, "tests"))
 
 
 def generar_paginas():
