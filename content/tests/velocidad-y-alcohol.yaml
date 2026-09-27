@@ -1,0 +1,47 @@
+titulo: "Test de velocidad y alcohol"
+slug: velocidad-y-alcohol
+descripcion: "10 preguntas sobre límites de velocidad y tasas de alcohol, dos de los temas que más caen en el examen."
+orden: 1
+fecha: 2026-09-27
+preguntas:
+  - enunciado: "¿Cuál es la velocidad máxima genérica de un turismo en una autovía?"
+    opciones: ["100 km/h", "120 km/h", "130 km/h"]
+    correcta: 1
+    explicacion: "En autopistas y autovías el límite genérico para turismos y motos es de **120 km/h**. España no tiene tramos genéricos a 130."
+  - enunciado: "¿Y en una carretera convencional?"
+    opciones: ["90 km/h", "100 km/h", "110 km/h"]
+    correcta: 0
+    explicacion: "El límite genérico en carretera convencional es de **90 km/h** para turismos y motos."
+  - enunciado: "Circulas por una calle de ciudad con un solo carril por sentido y no hay ninguna señal de velocidad. ¿A qué velocidad máxima puedes ir?"
+    opciones: ["20 km/h", "30 km/h", "50 km/h"]
+    correcta: 1
+    explicacion: "En vías urbanas con **un carril por sentido** el límite genérico es **30 km/h**. Los 50 son solo para vías con dos o más carriles por sentido."
+    senal: velocidad_30
+  - enunciado: "En una calle de plataforma única, donde la acera y la calzada están al mismo nivel, el límite genérico es:"
+    opciones: ["20 km/h", "30 km/h", "40 km/h"]
+    correcta: 0
+    explicacion: "Sin separación entre peatones y vehículos el límite es de **20 km/h**."
+  - enunciado: "Estás adelantando en una carretera convencional limitada a 90 km/h. ¿Puedes superar ese límite para terminar antes el adelantamiento?"
+    opciones: ["Sí, hasta 20 km/h más", "Sí, hasta 10 km/h más", "No, en ningún caso"]
+    correcta: 2
+    explicacion: "La excepción que permitía ir 20 km/h por encima para adelantar **se eliminó en 2022**. Ahora no se puede superar el límite de la vía."
+  - enunciado: "¿Cuál es la velocidad mínima en una autopista o autovía?"
+    opciones: ["40 km/h", "60 km/h", "80 km/h"]
+    correcta: 1
+    explicacion: "En autopistas y autovías no se puede circular por debajo de **60 km/h**, porque ir demasiado despacio también genera peligro."
+  - enunciado: "¿Cuál es la tasa máxima de alcohol en aire espirado para un conductor general?"
+    opciones: ["0,15 mg/l", "0,25 mg/l", "0,50 mg/l"]
+    correcta: 1
+    explicacion: "Para conductores generales el límite es **0,25 mg/l en aire**, que equivale a 0,5 g/l en sangre."
+  - enunciado: "Un conductor con el permiso desde hace un año, ¿qué tasa máxima de alcohol en aire espirado puede tener?"
+    opciones: ["0,15 mg/l", "0,25 mg/l", "0,00 mg/l"]
+    correcta: 0
+    explicacion: "Los **noveles** (menos de 2 años con el permiso) y los profesionales tienen un límite de **0,15 mg/l en aire** (0,3 g/l en sangre)."
+  - enunciado: "¿A partir de qué tasa en aire espirado conducir con alcohol es delito, aunque no haya accidente?"
+    opciones: ["0,30 mg/l", "0,50 mg/l", "0,60 mg/l"]
+    correcta: 2
+    explicacion: "Superar **0,60 mg/l en aire** (1,2 g/l en sangre) es un delito contra la seguridad vial recogido en el Código Penal."
+  - enunciado: "Durante 2026 se ha propuesto bajar la tasa general a 0,2 g/l en sangre. ¿Qué límite debes respetar hoy?"
+    opciones: ["El nuevo de 0,2 g/l en sangre", "El de siempre: 0,5 g/l en sangre (0,25 mg/l en aire)", "Ninguno mientras se decide"]
+    correcta: 1
+    explicacion: "La reducción fue **rechazada en el Congreso en marzo de 2026** y la nueva propuesta sigue en trámite. Mientras no se publique en el BOE y entre en vigor, se aplica el límite de siempre."

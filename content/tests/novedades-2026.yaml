@@ -1,0 +1,46 @@
+titulo: "Test de novedades 2026: V16, puntos y normas nuevas"
+slug: novedades-2026
+descripcion: "10 preguntas sobre los cambios recientes: baliza V16, puntos del móvil y el cinturón, ciclistas y más."
+orden: 3
+fecha: 2026-09-27
+preguntas:
+  - enunciado: "Desde el 1 de enero de 2026, ¿qué dispositivo es obligatorio para señalizar una avería en la carretera?"
+    opciones: ["Los dos triángulos", "La baliza V16 conectada", "Cualquier luz de emergencia"]
+    correcta: 1
+    explicacion: "Desde 2026 la **baliza V16 conectada** es el dispositivo obligatorio. Envía su ubicación a la plataforma DGT 3.0."
+  - enunciado: "¿Dónde se coloca la baliza V16?"
+    opciones: ["A 50 metros detrás del vehículo", "Preferiblemente en el techo del vehículo", "En el salpicadero"]
+    correcta: 1
+    explicacion: "Se coloca **preferiblemente en el techo**, sacando el brazo por la ventanilla, para no tener que caminar por la calzada."
+  - enunciado: "Si además de la V16 colocas los triángulos, ¿te pueden multar?"
+    opciones: ["Sí, los triángulos ya están prohibidos", "No, la DGT ha aclarado que no se sanciona", "Solo en autovía"]
+    correcta: 1
+    explicacion: "La DGT aclaró que el triángulo **no se considera un obstáculo** y no se multa si se usa además de la V16 obligatoria."
+  - enunciado: "Una baliza V16 que no está conectada a la DGT 3.0, ¿sirve desde 2026?"
+    opciones: ["Sí, cualquier V16 vale", "No, debe ser conectada", "Solo en ciudad"]
+    correcta: 1
+    explicacion: "Desde 2026 solo es válida la V16 **conectada**, que transmite su ubicación."
+  - enunciado: "¿Cuántos puntos pierdes por conducir sujetando el móvil con la mano?"
+    opciones: ["3 puntos", "4 puntos", "6 puntos"]
+    correcta: 2
+    explicacion: "Desde la reforma de 2022, sujetar el móvil con la mano mientras conduces supone **6 puntos** y 200 euros."
+  - enunciado: "Estás parado en un semáforo en rojo. ¿Puedes coger el móvil con la mano?"
+    opciones: ["Sí, porque el vehículo está parado", "No, sigues conduciendo aunque estés detenido", "Sí, si es menos de un minuto"]
+    correcta: 1
+    explicacion: "Detenido en un semáforo o en un atasco **sigues conduciendo**, y sujetar el móvil también se sanciona."
+  - enunciado: "No llevar puesto el cinturón de seguridad, ¿cuántos puntos resta?"
+    opciones: ["2 puntos", "3 puntos", "4 puntos"]
+    correcta: 2
+    explicacion: "Con la reforma de 2022, no usar (o usar mal) el cinturón, el casco o la sillita infantil pasó de 3 a **4 puntos**."
+  - enunciado: "Al adelantar a un ciclista en carretera, ¿qué separación lateral mínima debes dejar?"
+    opciones: ["1 metro", "1,5 metros", "2 metros"]
+    correcta: 1
+    explicacion: "Debes dejar al menos **1,5 metros**. No respetarlo supone perder **6 puntos**."
+  - enunciado: "¿Con cuántos puntos empieza un conductor novel?"
+    opciones: ["8 puntos", "10 puntos", "12 puntos"]
+    correcta: 0
+    explicacion: "Los noveles empiezan con **8 puntos**. Si no pierden ninguno en sus dos primeros años, pasan a 12."
+  - enunciado: "¿Cuál es el máximo de puntos que puede llegar a tener un conductor?"
+    opciones: ["12 puntos", "15 puntos", "20 puntos"]
+    correcta: 1
+    explicacion: "Conduciendo sin infracciones se pueden ir sumando puntos hasta un máximo de **15**."

@@ -1,0 +1,53 @@
+titulo: "Test de señales y prioridad"
+slug: senales-y-prioridad
+descripcion: "10 preguntas para reconocer las familias de señales y saber quién pasa primero."
+orden: 2
+fecha: 2026-09-27
+preguntas:
+  - enunciado: "¿Qué indica esta señal?"
+    senal: stop
+    opciones: ["Detenerte solo si viene algún vehículo", "Detenerte siempre y después ceder el paso", "Reducir la velocidad y continuar si no viene nadie"]
+    correcta: 1
+    explicacion: "El **STOP** obliga a detenerse **siempre**, venga o no venga alguien, y después ceder el paso."
+  - enunciado: "Ante esta señal, si no viene ningún vehículo por la otra vía, ¿estás obligado a parar?"
+    senal: ceda
+    opciones: ["Sí, siempre", "No, puedes continuar con precaución", "Solo de noche"]
+    correcta: 1
+    explicacion: "Con el **ceda el paso** solo tienes que detenerte si es necesario para dejar pasar a otro. Si no viene nadie, puedes seguir."
+  - enunciado: "¿Qué familia de señales tiene forma de triángulo con borde rojo?"
+    opciones: ["Peligro", "Prohibición", "Obligación"]
+    correcta: 0
+    explicacion: "El **triángulo con borde rojo** es la forma de las señales de **peligro**. Las de prohibición son círculos con borde rojo."
+  - enunciado: "Un círculo azul con una flecha blanca es una señal de:"
+    senal: sentido_obligatorio
+    opciones: ["Indicación", "Obligación", "Prohibición"]
+    correcta: 1
+    explicacion: "Los **círculos azules** son señales de **obligación**: te obligan a hacer algo, en este caso seguir el sentido de la flecha."
+  - enunciado: "¿Qué prohíbe esta señal?"
+    senal: estacionamiento_prohibido
+    opciones: ["Parar y estacionar", "Solo estacionar", "Circular"]
+    correcta: 1
+    explicacion: "Con **una sola barra** está prohibido **estacionar**, pero puedes parar. Con dos barras en aspa se prohíben las dos cosas."
+  - enunciado: "¿Y esta otra?"
+    senal: parada_prohibida
+    opciones: ["Parar y estacionar", "Solo estacionar", "Solo parar"]
+    correcta: 0
+    explicacion: "Las **dos barras en aspa** significan que están prohibidas la **parada y el estacionamiento**."
+  - enunciado: "Un agente te indica que pases, pero el semáforo está en rojo. ¿Qué haces?"
+    opciones: ["Esperar a que el semáforo se ponga en verde", "Obedecer al agente y pasar", "Pasar solo si no viene nadie"]
+    correcta: 1
+    explicacion: "Las indicaciones de los **agentes** están por encima de cualquier semáforo o señal."
+  - enunciado: "Un semáforo en verde y una señal de STOP en el mismo cruce. ¿Qué prevalece?"
+    opciones: ["El STOP", "El semáforo", "Quien llegue primero"]
+    correcta: 1
+    explicacion: "Los **semáforos** tienen prioridad sobre las **señales verticales**. Con el semáforo en verde puedes pasar."
+  - enunciado: "Una señal de peligro con fondo amarillo indica que:"
+    senal: obras
+    opciones: ["Es una señal antigua", "Es una señal circunstancial por obras", "Solo se aplica a camiones"]
+    correcta: 1
+    explicacion: "Con el nuevo catálogo de señales (Real Decreto 465/2025), el **fondo amarillo** identifica la señalización circunstancial por **obras**, que prevalece sobre la señalización fija."
+  - enunciado: "¿Qué indica esta señal?"
+    senal: calzada_prioridad
+    opciones: ["Calzada con prioridad", "Fin de la calzada con prioridad", "Peligro por obras"]
+    correcta: 0
+    explicacion: "El rombo amarillo con borde blanco indica que circulas por una **calzada con prioridad** en las próximas intersecciones."
