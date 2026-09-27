@@ -23,8 +23,10 @@ import signs
 
 RAIZ = Path(__file__).parent
 DIST = RAIZ / "dist"
+import os
 SITE = json.loads((RAIZ / "site.json").read_text(encoding="utf-8"))
-BASE = SITE["base_url"].rstrip("/")
+# En Render se usa la dirección real del servidor hasta tener dominio propio
+BASE = (os.environ.get("SITE_BASE_URL") or SITE["base_url"]).rstrip("/")
 
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
          "septiembre", "octubre", "noviembre", "diciembre"]
