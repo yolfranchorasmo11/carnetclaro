@@ -96,7 +96,7 @@ h3 { font-size: 1.3rem; margin: 1.5em 0 .4em; }
 }
 .marca {
   display: flex; align-items: center; gap: 10px;
-  color: #fff; text-decoration: none;
+  color: #fff !important; text-decoration: none;
   font-family: "Barlow Condensed", sans-serif; font-weight: 700; font-size: 1.55rem;
   letter-spacing: .01em;
 }
@@ -104,10 +104,10 @@ h3 { font-size: 1.3rem; margin: 1.5em 0 .4em; }
 .marca span b { color: var(--amarillo); font-weight: 700; }
 .menu { display: flex; gap: 4px; flex-wrap: wrap; }
 .menu a {
-  color: #d8dde2; text-decoration: none; font-weight: 600; font-size: .98rem;
+  color: #d8dde2 !important; text-decoration: none; font-weight: 600; font-size: .98rem;
   padding: 6px 12px; border-radius: 999px;
 }
-.menu a:hover, .menu a[aria-current="page"] { background: var(--asfalto-2); color: #fff; }
+.menu a:hover, .menu a[aria-current="page"] { background: var(--asfalto-2); color: #fff !important; }
 
 /* ---------- Portada ---------- */
 .portada {
@@ -265,8 +265,8 @@ a.tarjeta:hover { transform: translateY(-2px); border-color: var(--tinta-suave);
 .pie::before { content: ""; display: block; height: 6px; margin-top: -44px; margin-bottom: 38px; background: repeating-linear-gradient(90deg, #fff 0 38px, transparent 38px 62px); opacity: .5; }
 .pie .contenedor { display: grid; gap: 28px; grid-template-columns: 1.4fr 1fr 1fr; }
 .pie h4 { color: #fff; font-family: "Barlow Condensed", sans-serif; font-size: 1.15rem; margin: 0 0 8px; }
-.pie a { color: #d8dde2; text-decoration: none; display: block; padding: 2px 0; }
-.pie a:hover { color: var(--amarillo); }
+.pie a { color: #d8dde2 !important; text-decoration: none; display: block; padding: 2px 0; }
+.pie a:hover { color: var(--amarillo) !important; }
 .pie .legal { grid-column: 1 / -1; border-top: 1px solid #343b42; padding-top: 18px; font-size: .85rem; }
 .tema-btn { background: none; border: 1px solid #4a525a; color: #d8dde2; border-radius: 999px; padding: 4px 12px; font: inherit; font-size: .85rem; cursor: pointer; margin-top: 10px; }
 
