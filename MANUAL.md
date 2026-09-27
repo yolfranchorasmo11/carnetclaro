@@ -15,6 +15,7 @@ Propietario: Eduardo. Presupuesto: **cero** (nada de herramientas de pago, ni im
 6. **Imágenes:** solo señales/esquemas dibujados en SVG (signs.py). Nunca imágenes de bancos ni generadas con servicios de pago.
 7. **Fecha de revisión:** cada artículo lleva `fecha` y `revisado`. Si se corrige uno antiguo, actualizar `revisado`.
 8. **Sin datos personales** del propietario salvo los que él indique en site.json.
+9. **SEO:** el `titulo` debe empezar por la frase exacta que la gente busca en Google (ej.: "Glorietas: quién tiene preferencia…", "Documentación obligatoria en el coche…"). El `slug` usa esas mismas palabras clave, corto y sin palabras vacías. El `resumen` incluye la palabra clave y responde la duda en una frase.
 
 ## Cómo publicar un artículo
 1. Elegir el siguiente tema pendiente de la lista (o una novedad de tráfico verificada de esta semana, que tiene prioridad).
