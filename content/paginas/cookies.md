@@ -6,7 +6,7 @@ resumen: "Qué cookies usa Carnet Claro."
 
 ## Cookies propias
 
-Carnet Claro **no instala cookies propias**. Los tests y el cambio de modo claro u oscuro funcionan sin guardar nada en tu navegador.
+Carnet Claro **no instala cookies propias**. Los tests y el cambio de modo claro u oscuro funcionan sin guardar nada en tu navegador. Las estadísticas de visitas (GoatCounter) tampoco usan cookies.
 
 ## Cookies de terceros
 

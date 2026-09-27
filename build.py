@@ -77,6 +77,11 @@ def pagina(titulo, descripcion, ruta, cuerpo, activo="", extra_head="", tipo="we
         adsense = (f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client='
                    f'{SITE["adsense_client"]}" crossorigin="anonymous"></script>')
 
+    estadisticas = ""
+    if SITE.get("goatcounter"):
+        estadisticas = (f'<script data-goatcounter="https://{SITE["goatcounter"]}.goatcounter.com/count" '
+                        'async src="https://gc.zgo.at/count.js"></script>')
+
     def enlace(href, texto, clave):
         cur = ' aria-current="page"' if clave == activo else ""
         return f'<a href="{href}"{cur}>{texto}</a>'
@@ -109,6 +114,7 @@ def pagina(titulo, descripcion, ruta, cuerpo, activo="", extra_head="", tipo="we
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 {adsense}
+{estadisticas}
 {extra_head}
 </head>
 <body>
