@@ -59,7 +59,8 @@ Propietario: Eduardo. Presupuesto: **cero** (nada de herramientas de pago, ni im
 - [ ] Trucos para el día del examen teórico
 
 ## Pendiente del propietario (Eduardo)
-- [ ] Nombre del titular y correo de contacto para `site.json` (aviso legal, privacidad, contacto).
+- [x] Correo de contacto: carnetclaro@outlook.com (ya en site.json).
+- [ ] Nombre completo del titular para `site.json` (aviso legal, privacidad).
 - [ ] Dominio propio (necesario para solicitar AdSense).
 - [ ] Cuenta de AdSense → cuando esté, poner `adsense_client` en `site.json`.
 - [ ] Al activar AdSense: activar el mensaje de consentimiento (CMP) gratuito de Google en "Privacidad y mensajes".
